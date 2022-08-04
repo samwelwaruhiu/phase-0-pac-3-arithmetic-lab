@@ -10,17 +10,24 @@ describe('basic math functions', function () {
     expect(add).toExist
   })
 
+   
   it("'subtract()' is a valid function", function() {
     expect(subtract).toExist
   })
+
+   
 
   it("'multiply()' is a valid function", function() {
     expect(multiply).toExist
   })
 
+  
+
   it("'divide()' is a valid function", function() {
     expect(divide).toExist
   })
+
+  
 
   it('add(a, b) adds two numbers and returns the result', function() {
     expect(add(a, b)).toEqual(a + b)
@@ -41,6 +48,9 @@ describe('basic math functions', function () {
   it('increment(n) increments n and returns the result', function() {
     expect(increment(a)).toEqual(a + 1)
   })
+
+
+
   
   it('decrement(n) decrements n and returns the result', function() {
     expect(decrement(a)).toEqual(a - 1)
